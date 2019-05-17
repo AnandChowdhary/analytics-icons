@@ -7,6 +7,6 @@ export default (query: string, fallback: string) => {
   if (!query) return fallback;
   query = slugify(query);
   if (browserIcons.includes(query)) return `https://cdnjs.cloudflare.com/ajax/libs/browser-logos/51.0.13/${query}/${query}_128x128.png`;
-  if (hostedIcons.includes(query)) return `https://unpkg.com/analytics-icons@1.0.0/icons/${query}.png`;
+  if (hostedIcons.includes(query)) return `https://unpkg.com/analytics-icons/icons/${query}.png`;
   return fallback;
 }
