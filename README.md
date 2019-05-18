@@ -2,6 +2,13 @@
 
 This package helps you display the right icon for web browsers, operating systems, and device manufacturers. It's super useful if you're building an analytics product.
 
+[![Travis CI](https://img.shields.io/travis/AnandChowdhary/analytics-icons.svg)](https://travis-ci.org/AnandChowdhary/analytics-icons)
+[![GitHub](https://img.shields.io/github/license/anandchowdhary/analytics-icons.svg)](https://github.com/AnandChowdhary/analytics-icons/blob/master/LICENSE)
+![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/AnandChowdhary/analytics-icons.svg)
+[![Minzipped size](https://img.shields.io/bundlephobia/minzip/analytics-icons.svg)](https://www.npmjs.com/package/analytics-icons)
+[![NPM version](https://img.shields.io/npm/v/analytics-icons.svg)](https://www.npmjs.com/package/analytics-icons)
+[![Types](https://img.shields.io/npm/types/analytics-icons.svg)](https://www.npmjs.com/package/analytics-icons)
+
 ## ⭐ Getting started
 
 Add Analytics Icons to your project:
