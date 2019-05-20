@@ -4,7 +4,7 @@ import hostedIcons from "./data/hosted.json";
 import countries from "./data/countries.json";
 
 const sendFallback = (query: string, url = `https://tse2.mm.bing.net/th?q={query}&w=100&h=100&p=0&dpr=2&adlt=moderate&c=1`) => {
-  return url.replace(/{query}/g, query);
+  return url.replace(/{query}/g, encodeURIComponent(`${query} icon`));
 };
 
 export default (query: string, fallback?: string) => {

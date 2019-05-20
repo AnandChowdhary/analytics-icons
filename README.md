@@ -33,6 +33,20 @@ const mac = icon("macOS");
 document.querySelector("img").setAttribute("src", mac);
 ```
 
+You can also supply a fallback image:
+
+```js
+const image = icon("ChromeUnknown", "generic-browser.png");
+```
+
+Or a dynamic fallback image:
+
+```js
+const image = icon("ChromeUnknown", "http://server/fallback/{query}.png");
+```
+
+If you don't, we fallback to a Bing-powered image result for "{query} icon".
+
 ## 🎨 Examples
 
 <table style="text-align: center">
