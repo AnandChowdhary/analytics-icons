@@ -97,6 +97,32 @@ document.querySelector("img").setAttribute("src", mac);
         <p>OnePlus</p>
       </td>
     </tr>
+    <tr>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://lipis.github.io/flag-icon-css/flags/1x1/in.svg">
+        <p>India</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://lipis.github.io/flag-icon-css/flags/1x1/nl.svg">
+        <p>Netherlands</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://lipis.github.io/flag-icon-css/flags/1x1/us.svg">
+        <p>United States</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://lipis.github.io/flag-icon-css/flags/1x1/eu.svg">
+        <p>EU</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://lipis.github.io/flag-icon-css/flags/1x1/jp.svg">
+        <p>Japan</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://lipis.github.io/flag-icon-css/flags/1x1/np.svg">
+        <p>Nepal</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
