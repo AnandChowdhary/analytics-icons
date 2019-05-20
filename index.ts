@@ -1,7 +1,15 @@
-import slugify from "slugify";
 import browserIcons from "./data/browsers.json";
 import hostedIcons from "./data/hosted.json";
 import countries from "./data/countries.json";
+
+const slugify = (text: string) =>
+  text
+    .toString()
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^\w\-]+/g, "")
+    .replace(/\-\-+/g, "-");
 
 const sendFallback = (
   query: string,
