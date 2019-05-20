@@ -121,6 +121,10 @@ If you don't, we fallback to a Bing-powered image result for "{query} icon".
         <p>Netherlands</p>
       </td>
       <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://lipis.github.io/flag-icon-css/flags/1x1/br.svg">
+        <p>Brazil</p>
+      </td>
+      <td>
         <img style="width: 50px; height: 50px" alt="Windows icon" src="https://lipis.github.io/flag-icon-css/flags/1x1/us.svg">
         <p>United States</p>
       </td>
@@ -135,6 +139,36 @@ If you don't, we fallback to a Bing-powered image result for "{query} icon".
       <td>
         <img style="width: 50px; height: 50px" alt="Windows icon" src="https://lipis.github.io/flag-icon-css/flags/1x1/np.svg">
         <p>Nepal</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://tse2.mm.bing.net/th?q=gitHub+icon&w=100&h=100&p=0&dpr=2&adlt=moderate&c=1">
+        <p>Fallback ("github")</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://tse2.mm.bing.net/th?q=gitlab+icon&w=100&h=100&p=0&dpr=2&adlt=moderate&c=1">
+        <p>Fallback ("gitlab")</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://tse2.mm.bing.net/th?q=bitbucket+icon&w=100&h=100&p=0&dpr=2&adlt=moderate&c=1">
+        <p>Fallback ("bitbucket")</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://tse2.mm.bing.net/th?q=oswald+labs+icon&w=100&h=100&p=0&dpr=2&adlt=moderate&c=1">
+        <p>Fallback ("oswald labs")</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://tse2.mm.bing.net/th?q=microsoft+icon&w=100&h=100&p=0&dpr=2&adlt=moderate&c=1">
+        <p>Fallback ("microsoft")</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://tse2.mm.bing.net/th?q=google+play+icon&w=100&h=100&p=0&dpr=2&adlt=moderate&c=1">
+        <p>Fallback ("google play")</p>
+      </td>
+      <td>
+        <img style="width: 50px; height: 50px" alt="Windows icon" src="https://tse2.mm.bing.net/th?q=y+combinator+icon&w=100&h=100&p=0&dpr=2&adlt=moderate&c=1">
+        <p>Fallback ("y combinator")</p>
       </td>
     </tr>
   </tbody>
