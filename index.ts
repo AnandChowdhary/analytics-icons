@@ -21,8 +21,10 @@ const sendFallback = (
 export default (query: string, fallback?: string) => {
   if (!query) return sendFallback(query, fallback);
   query = slugify(query).toLowerCase();
-  if (browserIcons.includes(query))
-    return `https://cdnjs.cloudflare.com/ajax/libs/browser-logos/51.0.13/${query}/${query}_128x128.png`;
+  if (browserIcons.map(i => i.split("|")[0]).includes(query))
+    return `https://cdnjs.cloudflare.com/ajax/libs/browser-logos/51.0.13/${
+      query.split("|")[0]
+    }/${query.split("|")[0]}_128x128.png`;
   if (hostedIcons.includes(query))
     return `https://unpkg.com/analytics-icons/icons/${query}.png`;
   if (countries.includes(query))
