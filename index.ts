@@ -21,10 +21,9 @@ const sendFallback = (
 export default (query: string, fallback?: string) => {
   if (!query) return sendFallback(query, fallback);
   query = slugify(query).toLowerCase();
+  const ans = query.includes("|") ? query.split("|")[1] : query;
   if (browserIcons.map(i => i.split("|")[0]).includes(query))
-    return `https://cdnjs.cloudflare.com/ajax/libs/browser-logos/51.0.13/${
-      query.split("|")[0]
-    }/${query.split("|")[0]}_128x128.png`;
+    return `https://cdnjs.cloudflare.com/ajax/libs/browser-logos/51.0.13/${ans}/${ans}_128x128.png`;
   if (hostedIcons.includes(query))
     return `https://unpkg.com/analytics-icons/icons/${query}.png`;
   if (countries.includes(query))
